@@ -13,7 +13,7 @@ $produtos = [
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="logo">
+    <div class="logo">
         <h1>Lata Market</h1>
     </div>
     <div class="produtos">
