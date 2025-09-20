@@ -1,8 +1,8 @@
 <?php
 $produtos = [
     1 => ["nome" => "Notebook", "preco" => 3500.00, "imagem" => "img/notebook.jpg", "descricao" => "Notebook potente para estudos e trabalho."],
-    2 => ["nome" => "Joystick", "preco" => 2200.00, "imagem" => "img/joystick.jpg", "descricao" => "Smartphone moderno com ótima câmera."],
-    3 => ["nome" => "Computador", "preco" => 2500.00, "imagem" => "img/computador.jpg", "descricao" => "Fone de ouvido sem fio com cancelamento de ruído."]
+    2 => ["nome" => "Smartphone", "preco" => 2200.00, "imagem" => "img/joystick.jpg", "descricao" => "Smartphone moderno com ótima câmera."],
+    3 => ["nome" => "Fone de ouvido", "preco" => 2500.00, "imagem" => "img/computador.jpg", "descricao" => "Fone de ouvido sem fio com cancelamento de ruído."]
 ];
 
 $id = $_GET['id'] ?? 1;
