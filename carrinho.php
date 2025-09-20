@@ -35,7 +35,7 @@ if (isset($_GET['remove'])) {
 <head>
     <meta charset="UTF-8">
     <title>Carrinho de Compras</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Carrinho de Compras</h1>
