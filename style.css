@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 /* RESET E BASE */
 * {
     margin: 0;
@@ -143,8 +145,26 @@ a[href*="remove"]:hover {
 /*Divs personalizadas */
 
 
-.logo{
-    color: #007bff;
-    background-color: #333;
+.logo_inicial{
+    background-color: #ffffff;
 }
 
+.h1_1 {
+    font-family: 'Poppins', sans-serif; /* fonte personalizada */
+    font-size: 2.8rem;                  /* tamanho grande */
+    font-weight: 700;                   /* bem forte */
+    color: #2c3e50;                     /* tom elegante */
+    text-align: center;                 /* centralizado */
+    margin: 20px 0;                     /* espaçamento */
+    text-transform: uppercase;          /* tudo em maiúsculas */
+    letter-spacing: 2px;                /* espaço entre letras */
+}
+
+.img_latamarket {
+    width: 180px;          /* tamanho padrão da logo */
+    height: auto;          /* mantém a proporção da imagem */
+    object-fit: contain;   /* evita cortes na imagem */
+    display: block;        /* facilita centralização */
+    margin: 0 auto;        /* centraliza no container */
+    border-radius: 8px;    /* cantos levemente arredondados */
+}

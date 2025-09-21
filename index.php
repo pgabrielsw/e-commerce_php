@@ -13,8 +13,9 @@ $produtos = [
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="logo">
-        <h1>Lata Market</h1>
+    <div class="logo_inicial">
+        <img class="img_latamarket" src="src/lata1-png.png">
+        <h1 class="h1_1">Lata Market</h1>
     </div>
     <div class="produtos">
         <?php foreach($produtos as $p): ?>
